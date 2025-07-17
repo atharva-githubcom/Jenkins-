@@ -1,0 +1,44 @@
+✅ Role-Based Authorization in Jenkins (Simple Steps)
+To manage users and roles (e.g., admin, developer, tester), use the Role-Based Strategy Plugin.
+
+🔧 Step-by-Step: Setup Role-Based Authorization
+1. Install Plugin
+Go to Manage Jenkins → Manage Plugins
+
+Search for: "Role-based Authorization Strategy"
+
+✅ Install and restart Jenkins
+
+2. Enable Role-Based Authorization
+Go to Manage Jenkins → Configure Global Security
+
+Under Authorization, select:
+✅ Role-Based Strategy
+
+Click Save
+
+3. Create Roles
+Go to Manage Jenkins → Manage and Assign Roles → Manage Roles
+
+Under Global roles, add roles like:
+
+admin, developer, viewer
+
+Set permissions for each role (check the boxes)
+
+Click Save
+
+4. Assign Roles to Users
+Go to Manage Jenkins → Manage and Assign Roles → Assign Roles
+
+Under User/group to add, type the username (must exist)
+
+Assign the role(s) by checking the appropriate boxes
+
+Click Save
+
+💡 Example Roles:
+Role	Permissions
+admin	All permissions
+dev	Job build, configure, read
+viewer	Job read-only access
