@@ -1,0 +1,24 @@
+✅ Jenkins Plugin Installation (UI Method)
+Login to Jenkins.
+
+Go to Manage Jenkins → Plugins (or "Manage Plugins").
+
+Go to the Available tab.
+
+In the search box, type the plugin name (e.g., Matrix Authorization Strategy).
+
+✅ Check the box next to the plugin.
+
+Click Install without restart (or Download now and install after restart).
+
+Wait for installation to finish.
+
+🔁 After Install (if needed)
+Go to Manage Jenkins → Configure Global Security to configure plugin settings (e.g., user roles for Matrix plugin).
+
+💡 Example Plugin Names to Install
+Plugin Name	Purpose
+Matrix Authorization Strategy	Manage users/roles
+GitHub Plugin	Integrate GitHub
+Pipeline	For Jenkins pipelines
+Docker Pipeline	Build using Docker
