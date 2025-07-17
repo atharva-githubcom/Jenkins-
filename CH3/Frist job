@@ -1,0 +1,23 @@
+✅ Steps to Create "Hello World" Jenkins Job
+Login to Jenkins.
+
+Click on “New Item” from the left menu.
+
+Enter a name: HelloWorld
+
+Select Freestyle project, then click OK.
+
+Scroll down to Build section → Click "Add build step" → Select "Execute shell" (Linux) or "Execute Windows batch command" (Windows).
+
+In the command box, type:
+echo "Hello World"
+Click Save.
+
+Click Build Now.
+
+To see the output: Go to Build History → Click the build → Console Output
+  ✅ Output:
+Started by user admin
+Building in workspace /var/lib/jenkins/workspace/HelloWorld
+Hello World
+Finished: SUCCESS
