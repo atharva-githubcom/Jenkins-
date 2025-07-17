@@ -1,0 +1,31 @@
+✅ Steps to Create User in Jenkins (UI Method)
+Login to Jenkins as admin.
+
+Click on "Manage Jenkins" from the left menu.
+
+Go to "Manage Users".
+
+Click "Create User".
+
+Fill in:
+
+Username
+
+Password
+
+Full Name
+
+Email
+
+Click Create User.
+
+✅ Bonus (If "Manage Users" not visible)
+You may need to install the "Matrix Authorization Strategy" plugin and enable user security:
+
+Go to Manage Jenkins → Configure Global Security.
+
+Enable "Jenkins own user database".
+
+Enable "Allow users to sign up" (optional).
+
+Save and restart Jenkins.
